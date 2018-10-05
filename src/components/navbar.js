@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Menu = () => (
+const NavBar = () => (
   <div
     style={{
       background: '#f4f4f4',
@@ -16,7 +16,10 @@ const Menu = () => (
       }}
     >
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">Sharon Yun</Link>
+      </li>
+      <li>
+        <Link to="/projects">Projects</Link>
       </li>
       <li>
         <Link to="/about">About</Link>
@@ -28,4 +31,4 @@ const Menu = () => (
   </div>
 )
 
-export default Menu
+export default NavBar
